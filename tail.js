@@ -1,4 +1,3 @@
-// FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`💚 Assertion Passed: ${actual} === ${expected}`);
@@ -7,10 +6,11 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const head = function(array) {
-  return array[0];
+const tail = function(array) {
+  let x = array.length;
+  return array[x - 1];
 };
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([],undefined));
+assertEqual(tail([5,6,7]), 7);
+assertEqual(tail(["Hello", "Lighthouse", "Labs"]), "Labs");
+assertEqual(tail([],undefined));
