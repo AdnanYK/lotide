@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@adnanyk/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "includes functions to manipulate arrays",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/AdnanYK/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "@adnanyk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AdnanYK/lotide/issues"
